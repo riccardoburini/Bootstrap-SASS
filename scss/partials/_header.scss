@@ -1,0 +1,41 @@
+.inizio {
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+.metà {
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+.fine {
+  @media screen and (max-width: 576px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.mike {
+  background-image: url(./img/michael-jordan-wallpaper-preview.jpg);
+  background-size: cover;
+  height: 40rem;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  align-items: center;
+  @media screen and (max-width: 576px) {
+    text-align: center;
+  }
+  h2 {
+    font-size: 4rem;
+    margin-bottom: 50px;
+    color: rgb(188, 10, 10);
+  }
+  p {
+    font-size: 2rem;
+    color: rgb(188, 10, 10);
+  }
+}

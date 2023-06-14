@@ -1,0 +1,68 @@
+@charset "UTF-8";
+@media screen and (max-width: 768px) {
+  .inizio {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .metà {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .fine {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.mike {
+  background-image: url(./img/michael-jordan-wallpaper-preview.jpg);
+  background-size: cover;
+  height: 40rem;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+@media screen and (max-width: 576px) {
+  .mike {
+    text-align: center;
+  }
+}
+.mike h2 {
+  font-size: 4rem;
+  margin-bottom: 50px;
+  color: rgb(188, 10, 10);
+}
+.mike p {
+  font-size: 2rem;
+  color: rgb(188, 10, 10);
+}
+
+.mycard {
+  margin-top: 20px;
+}
+.mycard h4 {
+  color: rgb(31, 167, 31);
+}
+.mycard h5 {
+  color: rgb(205, 107, 71);
+}
+.mycard img:hover {
+  transform: scale(1.2);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+footer .carosello {
+  width: 600px;
+  margin: 20px;
+}/*# sourceMappingURL=style.css.map */

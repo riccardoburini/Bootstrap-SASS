@@ -1,0 +1,24 @@
+@import "variables";
+.mycard {
+  margin-top: 20px;
+  h4 {
+    color: rgb(31, 167, 31);
+  }
+  h5 {
+    color: rgb(205, 107, 71);
+  }
+  img {
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}
+footer {
+  display: flex;
+  justify-content: center;
+
+  .carosello {
+    width: 600px;
+    margin: 20px;
+  }
+}
